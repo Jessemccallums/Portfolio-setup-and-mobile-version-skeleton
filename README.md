@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Portfolio: setup and mobile version skeleton
+# My portfolio
 
 > This is a project from Microverse exercises. This project has the goal of: create a page for mobile devices with a toolbar (or header) and a headline section.
 
