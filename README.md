@@ -2,7 +2,7 @@
 
 # Project Name
 
-> This is a project from Microvrse exercises. This project has the goal of: create a page for mobile devices with a toolbar (or header) and a the headline section.
+> This is a project from Microvrse exercises. This project has the goal of: create a page for mobile devices with a toolbar (or header) and a headline section.
 
 
 ## Built With
