@@ -12,16 +12,7 @@
 - GITHUB/GIT
 - Linters
 
-## Live Demo (if available)
-
-[Live Demo Link](file:///C:/Users/Dell/Documents/GitHub/Portfolio-setup-and-mobile-version-skeleton/index.html#)
-
-
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
@@ -37,8 +28,6 @@ Use it with a new branch, this is the basic commands that you could use: (git ad
 
 Install linters in order to use it.
 
-
-
 ## Authors
 
 👤 **Author1**
@@ -46,12 +35,6 @@ Install linters in order to use it.
 - GitHub: [@jessemccallums](https://github.com/Jessemccallums)
 - Twitter: [@mccallumshope](https://twitter.com/mccallumshope)
 - LinkedIn: [Jesse McCallums](https://www.linkedin.com/in/jesse-mccallums-7225a4237/)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
