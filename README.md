@@ -2,18 +2,19 @@
 
 # Project Name
 
-> Description the project.
+> This is a project from Microvrse exercises. This project has the goal of: create a page for mobile devices with a toolbar (or header) and a the headline section.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML
+- CSS
+- GITHUB/GIT
+- Linters
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](file:///C:/Users/Dell/Documents/GitHub/Portfolio-setup-and-mobile-version-skeleton/index.html#)
 
 
 ## Getting Started
@@ -26,15 +27,15 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
+Use it with a text editor and Use git and github and a browser.
+
 ### Setup
+
+Use it with a new branch, this is the basic commands that you could use: (git add . ) (git commit -m "bla, bla") (git push)
 
 ### Install
 
-### Usage
-
-### Run tests
-
-### Deployment
+Install linters in order to use it.
 
 
 
@@ -42,9 +43,9 @@ To get a local copy up and running follow these simple example steps.
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@jessemccallums](https://github.com/Jessemccallums)
+- Twitter: [@mccallumshope](https://twitter.com/mccallumshope)
+- LinkedIn: [Jesse McCallums](https://www.linkedin.com/in/jesse-mccallums-7225a4237/)
 
 👤 **Author2**
 
@@ -64,9 +65,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Discipline is important
+- The habits are important for our development
 
 ## 📝 License
 
