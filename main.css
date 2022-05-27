@@ -48,19 +48,17 @@ p {
 body {
   background-color: rgb(25, 23, 101);
   background-image: url(top.circles.svg);
+  background-image: url(portfolio.background.shapes.mobile.svg);
   background-size: cover;
   height: 500px;
   position: relative;
+  background-repeat: no-repeat;
 }
 
 i {
   color: rgb(255, 255, 255);
   fill: rgb(255, 255, 255);
   font-size: 60px;
-}
-
-section {
- 
 }
 
 .title {
@@ -122,21 +120,20 @@ ul {
   margin-top: -15px;
 }
 
-
 .myrecentwork {
-    font-family: "roboto", sans-serif;
-font-weight: 500;
-font-size: 60px;
-line-height: 52px;
-text-align: left;
-color: rgb(148, 144, 255);
-display: flex;
-justify-content: left;
-align-items: center;
-padding-right: -60px ;
-flex-wrap: wrap;
-padding-left: 80px;
-padding-top: 35px;
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 52px;
+  text-align: left;
+  color: rgb(148, 144, 255);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-right: -60px;
+  flex-wrap: wrap;
+  padding-left: 80px;
+  padding-top: 35px;
 }
 
 .picture {
@@ -149,70 +146,123 @@ padding-top: 35px;
   width: 335px;
 }
 
-
 .text {
- color: rgb(255, 255, 255);
- text-align: left;
- padding-left: 35px;
- display: flex;
- align-items: left;
- font-family: "roboto", sans-serif;
- font-size: 50px;
+  color: rgb(255, 255, 255);
+  text-align: left;
+  padding-left: 35px;
+  display: flex;
+  align-items: left;
+  font-family: "roboto", sans-serif;
+  font-size: 50px;
 }
 
 .paragraph-text {
-text-align: left;
-padding-left: 35px;
-padding-right: 35px;
+  text-align: left;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .styling3 {
-display: flex;
-justify-content: space-around;
-padding: 30px;
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
 }
 
 .button1 {
-    display: flex;
-flex-direction: row;
-align-items: center;
-padding: 12px;
-gap: 10px;
-background-color: rgb(125, 115, 252);
-border-color: rgb(125, 115, 252);
-display: flex;
-justify-content: space-around;
-width: 100px;
-margin-left: 30px;
-color: rgb(255, 255, 255);
-font-family: "roboto", sans-serif;
-
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  background-color: rgb(125, 115, 252);
+  border-color: rgb(125, 115, 252);
+  justify-content: space-around;
+  width: 100px;
+  margin-left: 30px;
+  color: rgb(255, 255, 255);
+  font-family: "roboto", sans-serif;
 }
 
+.button12 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 10px;
+  background-color: rgb(125, 115, 252);
+  border-color: rgb(125, 115, 252);
+  justify-content: space-around;
+  width: 100px;
+  margin-left: 30px;
+  color: rgb(255, 255, 255);
+  font-family: "roboto", sans-serif;
+  margin-top: 40px;
+}
 
 .redifining {
-    display: flex;
-    flex-flow: column;
-    padding: 2rem;
+  display: flex;
+  flex-flow: column;
+  padding: 2rem;
 }
 
 .lastpart {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    grid-gap: 1rem;
-    padding-left: 19px;
-    padding-right: 19px;
-    display: flex;
-    flex-direction: column;
-
+  padding-left: 19px;
+  padding-right: 19px;
+  display: flex;
+  flex-direction: column;
 }
 
 .separator-text {
-    padding-left: 80px;
+  padding-left: 80px;
+}
+
+.separator-text1 {
+  padding-left: 80px;
 }
 
 .form-center {
-    justify-content: center;
-    align-self: center;
-    column-gap: 50px;
+  justify-content: center;
+  align-self: center;
+  column-gap: 50px;
+}
+
+.input123 {
+  margin-top: -40px;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 327px;
+  height: 48px;
+}
+
+.input1234 {
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 327px;
+  height: 48px;
+}
+
+.input12345 {
+  margin-top: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 327px;
+  height: 148px;
+}
+
+.lasttext {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+
+  /* or 140% */
+  font-family: "roboto", sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  margin-top: -50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  justify-self: center;
 }
