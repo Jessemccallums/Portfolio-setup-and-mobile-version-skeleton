@@ -1,9 +1,6 @@
-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  padding: 25px;
-  align-items: center;
+.width {
+  width: 100%;
+  
 }
 
 .firsttext {
@@ -14,6 +11,15 @@ header {
   color: rgb(125, 115, 252);
   font-weight: 700;
   letter-spacing: 1px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
+}
+
+nav {
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 .secondtext {
@@ -25,16 +31,17 @@ header {
   font-weight: 500;
 }
 
+
 .link {
-  text-decoration: none;
-  color: rgb(255, 255, 255);
-  align-items: center;
-  letter-spacing: 0.03em;
-  font-family: "roboto", sans-serif;
-  font-weight: 500px;
-  font-size: 18px;
-  line-height: 16px;
-}
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    letter-spacing: 0.03em;
+    font-family: "roboto", sans-serif;
+    font-weight: 500px;
+    font-size: 18px;
+    line-height: 16px;
+  }
 
 p {
   font-family: "roboto", sans-serif;
@@ -43,16 +50,29 @@ p {
   color: rgb(200, 200, 212);
   font-weight: 400;
   line-height: 28px;
+  padding-left: 24px;
+  padding-right: 24px;
 }
 
 body {
   background-color: rgb(25, 23, 101);
-  background-image: url(top.circles.svg);
-  background-image: url(portfolio.background.shapes.mobile.svg);
-  background-size: cover;
-  height: 500px;
-  position: relative;
-  background-repeat: no-repeat;
+  
+  
+  
+}
+.image-picture {
+    background-image: url(top-circles.svg);
+    background-image: url(portfolio.background.shapes.mobile.svg);
+    background-size: cover;
+    height: 500px;
+    position: relative;
+    background-repeat: no-repeat;
+    padding: 50px;
+}
+.flex123 {
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 i {
@@ -70,24 +90,36 @@ i {
 }
 
 .columnmain {
-  max-width: 750px;
+  width: 100%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  width: 70%;
+  padding-left: 80px;
+  
 }
+
 
 .column {
   flex-direction: column;
   flex-basis: 150px;
   display: flex;
+  width: 80%;
+}
+
+.column3 {
+    
+        flex-direction: column;
+        padding-left: 80px;
+        display: flex;
+        width: 80%;
+       
 }
 
 li {
   color: rgb(255, 255, 255);
   font-family: "roboto", sans-serif;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 24px;
 }
 
@@ -98,6 +130,9 @@ ul {
 
 .icon {
   justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .styling1 {
@@ -105,10 +140,6 @@ ul {
   justify-content: center;
   font-size: 70px;
   gap: 25px;
-}
-
-.footer {
-  justify-content: center;
 }
 
 .styling2 {
@@ -123,7 +154,7 @@ ul {
 .myrecentwork {
   font-family: "roboto", sans-serif;
   font-weight: 500;
-  font-size: 60px;
+  font-size: 40px;
   line-height: 52px;
   text-align: left;
   color: rgb(148, 144, 255);
@@ -132,8 +163,10 @@ ul {
   align-items: center;
   padding-right: -60px;
   flex-wrap: wrap;
-  padding-left: 80px;
+  padding-left: 24px;
   padding-top: 35px;
+ width: 327px;
+ height: 104px;
 }
 
 .picture {
@@ -143,7 +176,13 @@ ul {
   justify-content: center;
   align-items: center;
   padding-left: 35px;
-  width: 335px;
+
+height: 236px;
+width: 327px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+
 }
 
 .text {
@@ -183,20 +222,31 @@ ul {
   font-family: "roboto", sans-serif;
 }
 
+button:hover {
+  background-color: rgb(94, 66, 215);
+}
+
+.input123456 {
+  margin-top: 40px;
+  margin-left: 143px;
+  margin-right: 143px;
+}
+
 .button12 {
   display: flex;
-  flex-direction: row;
   align-items: center;
   padding: 12px;
   gap: 10px;
   background-color: rgb(125, 115, 252);
   border-color: rgb(125, 115, 252);
-  justify-content: space-around;
+  justify-content: center;
   width: 100px;
   margin-left: 30px;
   color: rgb(255, 255, 255);
   font-family: "roboto", sans-serif;
   margin-top: 40px;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 .redifining {
@@ -208,46 +258,81 @@ ul {
 .lastpart {
   padding-left: 19px;
   padding-right: 19px;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: auto;
+  width: 95%;
+  
 }
 
+.negro {
+    padding-left: 19px;
+    padding-right: 19px;
+    display: grid;
+    grid-template-columns: auto;
+    width: 95%;
+    margin: auto;
+    float: right;
+  }
+
+
+
 .separator-text {
-  padding-left: 80px;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 450px;
+  margin: 10% auto;
+ 
 }
 
 .separator-text1 {
   padding-left: 80px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 .form-center {
   justify-content: center;
   align-self: center;
   column-gap: 50px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 .input123 {
-  margin-top: -40px;
+  margin-top: 40px;
   margin-left: 24px;
   margin-right: 24px;
   width: 327px;
   height: 48px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 .input1234 {
   margin-top: 24px;
   margin-left: 24px;
   margin-right: 24px;
+  margin-bottom: 24px;
   width: 327px;
   height: 48px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 .input12345 {
   margin-top: 24px;
   margin-left: 24px;
   margin-right: 24px;
+  margin-bottom: 24px;
   width: 327px;
   height: 148px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: flex;
 }
 
 .lasttext {
@@ -266,3 +351,77 @@ ul {
   justify-items: center;
   justify-self: center;
 }
+
+.first {
+  width: 80%;
+  display: grid;
+  grid-template-rows: auto;
+  padding: 50px;
+  padding-left: 24px;
+  
+}
+
+
+
+.second {
+  width: 80%;
+  display: grid;
+  grid-template-rows: auto;
+}
+
+
+
+.third {
+  width: 80%;
+  display: grid;
+  grid-template-rows: auto;
+}
+.header {
+    width: 100%;
+    margin-top: 66px;
+    justify-content: space-around;
+  }
+  
+  .cont1 {
+  
+
+  width: 100%;
+align-items: center;
+text-align: center;
+display: flex;
+justify-content: space-between;
+padding-left: 24px;
+
+  }
+  
+  .menu {
+    
+    
+  }
+.logo-placeholder {
+    padding-left: 24px;
+}
+  nav img {
+    width: 60px;
+    height: 60px;
+    padding-right: 24px;
+    
+    
+    
+  }
+  
+
+  .logo {
+    padding-left: 24px;
+
+
+  }
+
+  div a {
+    font-family: "roboto", sans-serif;
+font-weight: 500;
+font-size: 18px;
+line-height: 16px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+  }
