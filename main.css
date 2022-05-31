@@ -54,7 +54,6 @@ p {
 
 body {
   background-color: rgb(25, 23, 101);
- 
 }
 
 .image-picture {
@@ -248,14 +247,14 @@ button:hover {
 }
 
 .text-footer {
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-text-align: center;
-margin-top: -45px;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  margin-top: -45px;
 }
+
 .redifining {
   display: flex;
   flex-flow: column;
@@ -335,11 +334,10 @@ margin-top: -45px;
   margin-bottom: 24px;
   width: 327px;
   height: 148px;
-  flex-direction: column; 
+  flex-direction: column;
   flex-wrap: wrap;
   display: flex;
   font-family: "roboto", sans-serif;
-   
 }
 
 .lasttext {
@@ -374,18 +372,18 @@ margin-top: -45px;
 }
 
 form {
- margin: auto;
- justify-content: center;
- text-align: center;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
 }
 
 .maintextfooter {
   font-family: "roboto", sans-serif;
   font-weight: 500;
-font-size: 32px;
-line-height: 44px;
-color: rgb(147, 144, 255);
-text-align: center;
+  font-size: 32px;
+  line-height: 44px;
+  color: rgb(147, 144, 255);
+  text-align: center;
 }
 
 .third {
@@ -430,4 +428,3 @@ div a {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
-
