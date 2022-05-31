@@ -195,7 +195,6 @@ ul {
 .paragraph-text1 {
   text-align: center;
   margin-left: 55px;
-  
 }
 
 .styling3 {
@@ -220,12 +219,12 @@ ul {
 
 button:hover {
   background-color: rgb(125, 115, 252);
-  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+  box-shadow: 0 8px 16px rgba(125, 115, 252, 0.48);
 }
 
-button:active{
-   background-color: rgb(94, 66, 215);
-   box-shadow: none;
+button:active {
+  background-color: rgb(94, 66, 215);
+  box-shadow: none;
 }
 
 button:disabled {
@@ -295,11 +294,9 @@ button:disabled {
   padding-right: 24px;
   width: 327px;
   margin: 10% auto;
-  
 }
 
 .separator-text1 {
-  
   flex-direction: column;
   flex-wrap: wrap;
   display: flex;
@@ -385,7 +382,8 @@ button:disabled {
   display: grid;
   grid-template-rows: auto;
 }
-/* 
+
+/*
 form {
   margin: auto;
   justify-content: center;
@@ -419,7 +417,7 @@ form {
   align-items: center;
   text-align: center;
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
 }
 
 .logo-placeholder {
