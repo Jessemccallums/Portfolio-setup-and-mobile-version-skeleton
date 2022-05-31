@@ -192,6 +192,12 @@ ul {
   padding-right: 35px;
 }
 
+..paragraph-text1 {
+  text-align: center;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
 .styling3 {
   display: flex;
   justify-content: space-around;
@@ -240,6 +246,15 @@ button:hover {
   flex-wrap: wrap;
 }
 
+.text-footer {
+  font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+margin-top: -45px;
+}
 .redifining {
   display: flex;
   flex-flow: column;
@@ -353,6 +368,21 @@ button:hover {
   grid-template-rows: auto;
 }
 
+form {
+ margin: auto;
+ justify-content: center;
+ text-align: center;
+}
+
+.maintextfooter {
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+font-size: 32px;
+line-height: 44px;
+color: rgb(147, 144, 255);
+text-align: center;
+}
+
 .third {
   width: 80%;
   display: grid;
@@ -396,3 +426,4 @@ div a {
   color: rgb(255, 255, 255);
   text-decoration: none;
 }
+
