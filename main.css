@@ -383,13 +383,6 @@ button:disabled {
   grid-template-rows: auto;
 }
 
-/*
-form {
-  margin: auto;
-  justify-content: center;
-  text-align: center;
-} */
-
 .maintextfooter {
   font-family: "roboto", sans-serif;
   font-weight: 500;
