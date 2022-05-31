@@ -125,7 +125,7 @@ ul {
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  width: 100%;
+  width: 120%;
 }
 
 .styling1 {
@@ -192,10 +192,10 @@ ul {
   padding-right: 35px;
 }
 
-..paragraph-text1 {
+.paragraph-text1 {
   text-align: center;
-  padding-left: 35px;
-  padding-right: 35px;
+  margin-left: 55px;
+  
 }
 
 .styling3 {
@@ -211,7 +211,6 @@ ul {
   padding: 12px;
   gap: 10px;
   background-color: rgb(125, 115, 252);
-  border-color: rgb(125, 115, 252);
   justify-content: space-around;
   width: 100px;
   margin-left: 30px;
@@ -220,7 +219,17 @@ ul {
 }
 
 button:hover {
-  background-color: rgb(94, 66, 215);
+  background-color: rgb(125, 115, 252);
+  box-shadow: 0px 8px 16px rgba(125, 115, 252, 0.48);
+}
+
+button:active{
+   background-color: rgb(94, 66, 215);
+   box-shadow: none;
+}
+
+button:disabled {
+  background-color: rgb(0, 0, 0);
 }
 
 .input123456 {
@@ -242,6 +251,7 @@ button:hover {
   color: rgb(255, 255, 255);
   font-family: "roboto", sans-serif;
   margin-top: 40px;
+  margin-left: 170px;
   flex-direction: column;
   flex-wrap: wrap;
 }
@@ -253,6 +263,7 @@ button:hover {
   line-height: 28px;
   text-align: center;
   margin-top: -45px;
+  width: 105%;
 }
 
 .redifining {
@@ -282,15 +293,20 @@ button:hover {
 .separator-text {
   padding-left: 24px;
   padding-right: 24px;
-  width: 450px;
+  width: 327px;
   margin: 10% auto;
+  
 }
 
 .separator-text1 {
-  padding-left: 80px;
+  
   flex-direction: column;
   flex-wrap: wrap;
   display: flex;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 327px;
+  margin: 10% auto;
 }
 
 .form-center {
@@ -300,12 +316,13 @@ button:hover {
   flex-direction: column;
   flex-wrap: wrap;
   display: flex;
+  margin: auto;
+  text-align: center;
 }
 
 .input123 {
   margin-top: 40px;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 55px;
   width: 327px;
   height: 48px;
   flex-direction: column;
@@ -316,8 +333,7 @@ button:hover {
 
 .input1234 {
   margin-top: 24px;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 55px;
   margin-bottom: 24px;
   width: 327px;
   height: 48px;
@@ -329,8 +345,7 @@ button:hover {
 
 .input12345 {
   margin-top: 24px;
-  margin-left: 24px;
-  margin-right: 24px;
+  margin-left: 55px;
   margin-bottom: 24px;
   width: 327px;
   height: 148px;
@@ -370,12 +385,12 @@ button:hover {
   display: grid;
   grid-template-rows: auto;
 }
-
+/* 
 form {
   margin: auto;
   justify-content: center;
   text-align: center;
-}
+} */
 
 .maintextfooter {
   font-family: "roboto", sans-serif;
@@ -384,6 +399,7 @@ form {
   line-height: 44px;
   color: rgb(147, 144, 255);
   text-align: center;
+  margin-left: 55px;
 }
 
 .third {
@@ -399,11 +415,11 @@ form {
 }
 
 .cont1 {
-  width: 100%;
+  width: 120%;
   align-items: center;
   text-align: center;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;  
 }
 
 .logo-placeholder {
