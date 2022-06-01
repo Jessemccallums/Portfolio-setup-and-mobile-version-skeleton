@@ -1,3 +1,14 @@
+* {
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+
 .width {
   width: 100%;
 }
@@ -94,23 +105,23 @@ i {
 }
 
 .columnmain {
-  width: 100%;
+  width: 85%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  padding-left: 80px;
+ justify-content: space-between;
 }
 
 .column {
   flex-direction: column;
-  flex-basis: 150px;
+  flex-basis: 40%;
   display: flex;
   width: 80%;
 }
 
 .column3 {
   flex-direction: column;
-  padding-left: 80px;
+  
   display: flex;
   width: 80%;
 }
@@ -172,15 +183,13 @@ ul {
 .picture {
   display: flex;
   flex-wrap: wrap;
-  padding: 50px;
   justify-content: center;
   align-items: center;
-  padding-left: 35px;
+  width: 97%;
   height: 236px;
-  width: 327px;
-  left: 0;
-  top: 0;
-  border-radius: 0;
+  /* width: 327px; */
+  
+  margin-top: 40px;
 }
 
 .text {
@@ -201,7 +210,7 @@ ul {
 
 .paragraph-text1 {
   text-align: center;
-  margin-left: 55px;
+ 
 }
 
 .styling3 {
@@ -257,7 +266,7 @@ button:disabled {
   color: rgb(255, 255, 255);
   font-family: "roboto", sans-serif;
   margin-top: 40px;
-  margin-left: 170px;
+  
   flex-direction: column;
   flex-wrap: wrap;
 }
@@ -269,13 +278,13 @@ button:disabled {
   line-height: 28px;
   text-align: center;
   margin-top: -45px;
-  width: 105%;
+  
 }
 
 .redifining {
   display: flex;
   flex-flow: column;
-  padding: 2rem;
+  
 }
 
 .lastpart {
@@ -297,9 +306,8 @@ button:disabled {
 }
 
 .separator-text {
-  padding-left: 24px;
-  padding-right: 24px;
-  width: 327px;
+ 
+  width: 90%;
   margin: 10% auto;
 }
 
@@ -316,19 +324,19 @@ button:disabled {
 .form-center {
   justify-content: center;
   align-self: center;
-  column-gap: 50px;
+  
   flex-direction: column;
   flex-wrap: wrap;
   display: flex;
-  margin: auto;
+  margin: 0 auto;
+  width: 90%;
   text-align: center;
 }
 
 .input123 {
   margin-top: 40px;
-  margin-left: 30px;
-  margin-right: 24px;
-  width: 327px;
+  
+  
   height: 48px;
   flex-direction: column;
   flex-wrap: wrap;
@@ -338,8 +346,7 @@ button:disabled {
 
 .input1234 {
   margin-top: 24px;
-  margin-left: 30px;
-  margin-right: 24px;
+ 
   margin-bottom: 24px;
   width: 327px;
   height: 48px;
@@ -351,7 +358,7 @@ button:disabled {
 
 .input12345 {
   margin-top: 24px;
-  margin-left: 30px;
+  
   margin-bottom: 24px;
   width: 327px;
   height: 148px;
@@ -379,11 +386,10 @@ button:disabled {
 }
 
 .first {
-  width: 80%;
+  width: 95%;
   display: grid;
   grid-template-rows: auto;
-  padding: 50px;
-  padding-left: 24px;
+  
 }
 
 .second {
@@ -399,11 +405,11 @@ button:disabled {
   line-height: 44px;
   color: rgb(147, 144, 255);
   text-align: center;
-  margin-left: 55px;
+  margin: 40px auto;
 }
 
 .third {
-  width: 80%;
+ 
   display: grid;
   grid-template-rows: auto;
 }
@@ -415,16 +421,13 @@ button:disabled {
 }
 
 .cont1 {
-  width: 120%;
+  width: 100%;
   align-items: center;
-  text-align: center;
+  
   display: flex;
   justify-content: space-between;
 }
 
-.logo-placeholder {
-  padding-left: 24px;
-}
 
 nav img {
   width: 60px;
