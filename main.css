@@ -6,18 +6,18 @@ img {
   max-width: 100%;
 }
 
-
-
-
 .width {
   width: 100%;
 }
 
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
+
 body {
-  position: relative
+  position: relative;
+  background-color: rgb(25, 23, 101);
 }
 
 .firsttext {
@@ -70,10 +70,6 @@ p {
   padding-right: 24px;
 }
 
-body {
-  background-color: rgb(25, 23, 101);
-}
-
 .image-picture {
   background-image: url(top-circles.svg);
   background-image: url(portfolio.background.shapes.mobile.svg);
@@ -109,7 +105,7 @@ i {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
- justify-content: space-between;
+  justify-content: space-between;
 }
 
 .column {
@@ -121,7 +117,6 @@ i {
 
 .column3 {
   flex-direction: column;
-  
   display: flex;
   width: 80%;
 }
@@ -185,10 +180,13 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  width: 97%;
+  width: 80%;
   height: 236px;
+  margin: 0 auto;
+  margin-left: 9%;
+
   /* width: 327px; */
-  
+
   margin-top: 40px;
 }
 
@@ -210,7 +208,6 @@ ul {
 
 .paragraph-text1 {
   text-align: center;
- 
 }
 
 .styling3 {
@@ -266,7 +263,6 @@ button:disabled {
   color: rgb(255, 255, 255);
   font-family: "roboto", sans-serif;
   margin-top: 40px;
-  
   flex-direction: column;
   flex-wrap: wrap;
 }
@@ -278,13 +274,11 @@ button:disabled {
   line-height: 28px;
   text-align: center;
   margin-top: -45px;
-  
 }
 
 .redifining {
   display: flex;
   flex-flow: column;
-  
 }
 
 .lastpart {
@@ -306,7 +300,6 @@ button:disabled {
 }
 
 .separator-text {
- 
   width: 90%;
   margin: 10% auto;
 }
@@ -324,7 +317,6 @@ button:disabled {
 .form-center {
   justify-content: center;
   align-self: center;
-  
   flex-direction: column;
   flex-wrap: wrap;
   display: flex;
@@ -335,8 +327,6 @@ button:disabled {
 
 .input123 {
   margin-top: 40px;
-  
-  
   height: 48px;
   flex-direction: column;
   flex-wrap: wrap;
@@ -346,7 +336,6 @@ button:disabled {
 
 .input1234 {
   margin-top: 24px;
- 
   margin-bottom: 24px;
   width: 327px;
   height: 48px;
@@ -358,7 +347,6 @@ button:disabled {
 
 .input12345 {
   margin-top: 24px;
-  
   margin-bottom: 24px;
   width: 327px;
   height: 148px;
@@ -389,7 +377,6 @@ button:disabled {
   width: 95%;
   display: grid;
   grid-template-rows: auto;
-  
 }
 
 .second {
@@ -409,7 +396,6 @@ button:disabled {
 }
 
 .third {
- 
   display: grid;
   grid-template-rows: auto;
 }
@@ -423,11 +409,9 @@ button:disabled {
 .cont1 {
   width: 100%;
   align-items: center;
-  
   display: flex;
   justify-content: space-between;
 }
-
 
 nav img {
   width: 60px;
