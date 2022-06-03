@@ -475,6 +475,10 @@ button:disabled {
   width: 100%;
   display: grid;
   grid-template-rows: auto;
+
+  background-image: url(./background-image-version2.svg);
+     background-repeat: no-repeat;
+     background-position: 20% 5%;
 }
 
 
