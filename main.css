@@ -478,7 +478,7 @@ button:disabled {
 
   background-image: url(./background-image-version2.svg);
      background-repeat: no-repeat;
-     background-position: 20% 5%;
+     background-position: 20% 10%;
 }
 
 
@@ -643,10 +643,10 @@ div a {
 .styling1 {
   display: flex;
   justify-content: center;
-  font-size: 70px;
+  font-size: 100px;
   
   align-items: center;
-  gap: 30px;
+  column-gap: 30px;
   
 }
 
@@ -868,6 +868,7 @@ display: none;
   font-size: 70px;
   justify-content: space-around;
   align-items: center;
+  column-gap: 20px;
   
 }
 
