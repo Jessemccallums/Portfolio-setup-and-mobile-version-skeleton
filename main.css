@@ -883,7 +883,7 @@ display: none;
 }
 
 .work-section{
-  margin-left: 20px;
+  margin-left: 160px;
 }
 
 .second-part-1-section{
@@ -895,9 +895,13 @@ display: none;
   
   width: 100%;
   align-items: center;
-  margin-top: -2%;
+  margin-top: -1.5%;
   
   
+}
+
+.work-section-right{
+  margin-right: 160px;
 }
 }
 
