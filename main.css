@@ -18,6 +18,11 @@ body {
 body {
   position: relative;
   background-color: rgb(25, 23, 101);
+  background-image: url(./two.circles.header.svg);
+     background-repeat: no-repeat;
+     background-position: 20% 5%;
+     
+  
 }
 
 .firsttext {
@@ -32,6 +37,13 @@ body {
   flex-wrap: wrap;
   display: flex;
 }
+/* 
+.first {
+     /* background-image: url(./two.circles.header.svg);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-color: transparent; */
+} */
 
 nav {
   flex-direction: column;
