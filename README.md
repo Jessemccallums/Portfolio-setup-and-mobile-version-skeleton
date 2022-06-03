@@ -2,7 +2,7 @@
 
 # My portfolio
 
-> This is a project from Microverse exercises. This project has the goal of: create a page for mobile devices with a toolbar (or header) and a headline section and also a contact form.
+> This is a project from Microverse exercises. This project has the goal of: create a page for desktop devices, this include: header, sections and footer
 
 
 ## Built With
